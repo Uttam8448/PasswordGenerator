@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Fraunces:opsz,wght@9..144,100&family=Montserrat:wght@100;400&family=Poppins:wght@500&family=Raleway&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="card">
+            <h1>PASSWORD GENERATOR</h1>
+            <div class="output">
+                <div class="password pass">
+                    DSER
+                </div>
+                <button class="copyButton">
+                    <span class="data-copyMsg"></span>
+                    <img src="copy.svg" alt="">
+                </button>
+            </div>
+            <div class="options">
+                <div class="length">
+                    <div class="lengthContent">
+                        <h2>Password Length</h2>
+                        <div class="number" data-lengthNumber>
+                            7
+                        </div>
+                    </div>
+                    <input type="range" min="1" max="20" class="slider" step="1" data-lengthSlider>
+                </div>
+                <div class="checkBox">
+                    <div>
+                        <input type="checkbox" id="uppercase">
+                        <label for="uppercase">Include Uppercase Letters</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="lowercase">
+                        <label for="lowercase">Include Lowercase Letters</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="numbers">
+                        <label for="numbers">Include Numbers</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="symbol">
+                        <label for="symbol">Include Symbols</label>
+                    </div>
+                </div>
+                <!-- strength section -->
+                <div class="strength">
+                    <h2>Strength</h2>
+                    <div class="strengthCicle" data-Indicator></div>
+                </div>
+                <div class="GenerateButton">
+            
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

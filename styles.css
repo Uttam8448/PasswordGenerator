@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-weight: 800;
+    text-align: center;
+}
+.copyButton{
+    border: 0;
+    background-color:#03203100;
+}
+.card{
+    /* background-color: aliceblue; */
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.output{
+    height:70px;
+    background-color:#032031a9;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+img{
+    width:20px;
+    cursor: pointer;
+}
+.pass{
+    font-size: large;
+    font-weight: bold;
+    color: rgba(255, 217, 0, 0.87);
+}
+.options{
+    width: 450px;
+    background-color:#032031a9;
+    border-radius: 10px;
+    opacity: 0.9;
+    height: 500px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.length{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.lengthContent{
+    display: flex;
+    justify-content: space-between;
+}
+.number{
+    font-size: x-large;
+    background-color: black;
+    color:white;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    border-radius: 3px;
+}
+/* .sliderDiv{
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+} */
+.slider{
+    
+    width: 400px;
+}
+.checkBox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+input{
+    cursor: pointer;
+}
+.strengthCircle{
+    border-radius: 50%;
+    background-color:black;
+}
+.strength{
+    display: flex;
+    
+}
